@@ -12,5 +12,5 @@ This project uses a Flask server and DeepFace to detect whether an image contain
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/human-detection.git
+   git clone https://github.com/Urz1/Face-Detector.git
    cd human-detection

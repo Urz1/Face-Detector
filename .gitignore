@@ -1,17 +1,8 @@
-# Temporary files
 profile.jpg
 known_faces_embeddings.pkl
-
-# Known faces (exclude to avoid sharing sensitive images)
 known_faces/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# Virtual environments
 venv/
 .env/
-
-# System files
 .DS_Store

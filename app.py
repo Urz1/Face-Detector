@@ -55,7 +55,19 @@ def timeout(seconds):
         return wrapper
     return decorator
 
+# API key authentication
+def require_api_key(func):
+    @wraps(func)
+    def decorated_function(*args, **kwargs):
+        api_key = request.headers.get('X-API-Key')
+        if api_key and api_key == os.getenv('API_KEY', 'your-secret-key'):
+            return func(*args, **kwargs)
+        else:
+            return jsonify({'error': 'Invalid or missing API key'}), 401
+    return decorated_function
+
 @app.route('/process_image', methods=['POST'])
+@require_api_key
 def process_image():
     try:
         logger.info("Received image for processing")
@@ -73,7 +85,7 @@ def process_image():
             return jsonify({'result': False, 'error': 'Invalid image'}), 400
 
         # Step 1: Detect face
-        @timeout(10)  # 10-second timeout
+        @timeout(10)
         def detect_face():
             return DeepFace.detectFace(img_path=temp_image_path, detector_backend='retinaface')
         
@@ -86,7 +98,7 @@ def process_image():
             return jsonify({'result': False, 'message': 'No human face detected'})
 
         # Step 2: Compare against known faces using pre-computed embeddings
-        @timeout(10)  # 10-second timeout
+        @timeout(10)
         def compute_input_embedding():
             return DeepFace.represent(img_path=temp_image_path, model_name='VGG-Face', detector_backend='retinaface')
         
@@ -95,10 +107,8 @@ def process_image():
             is_known = False
             for known_face_path, known_embedding in known_embeddings.items():
                 try:
-                    # Compute cosine distance manually
                     distance = np.linalg.norm(np.array(input_embedding) - np.array(known_embedding))
-                    # VGG-Face cosine threshold (adjust if needed, typically ~0.4 for VGG-Face)
-                    if distance < 0.4:
+                    if distance < 0.4:  # VGG-Face cosine threshold
                         logger.info(f"Match found with {known_face_path}")
                         is_known = True
                         break
@@ -111,7 +121,7 @@ def process_image():
             return jsonify({'result': False, 'message': 'Error processing face'})
 
         # Step 3: Determine result
-        result = not is_known  # True if no match (unknown human), False if match found
+        result = not is_known
         logger.info(f"Result: {'Unknown human' if result else 'Known person'}")
 
         # Clean up
@@ -125,7 +135,6 @@ def process_image():
         return jsonify({'result': False, 'error': str(e)}), 500
 
 if __name__ == '__main__':
-    # Ensure database path exists
-    if not os.path.exists(DATABASE_PATH):
-        os.makedirs(DATABASE_PATH)
-    app.run(host='0.0.0.0', port=5000)
+    import os
+    port = int(os.getenv('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
