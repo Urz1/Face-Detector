@@ -1,9 +1,9 @@
+.env
 profile.jpg
 known_faces_embeddings.pkl
 known_faces/
 __pycache__/
 *.pyc
 venv/
-.env
 .DS_Store
-.env/
+myenv/

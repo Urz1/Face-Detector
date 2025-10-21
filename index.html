@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security System Notifications</title>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        #notifications { border: 1px solid #ccc; padding: 10px; max-height: 400px; overflow-y: auto; }
+        .notification { margin: 5px 0; padding: 5px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1>Security System Notifications</h1>
+    <div id="notifications"></div>
+    <script>
+        let ws = new WebSocket("ws://localhost:8000/ws");
+        
+        ws.onopen = () => console.log("Connected to WebSocket");
+        ws.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            const div = document.createElement("div");
+            div.className = "notification";
+            div.textContent = `Motion detected at ${data.timestamp}, Face: ${data.face_result}`;
+            document.getElementById("notifications").prepend(div);
+            alert(`New motion detected at ${data.timestamp}\nFace: ${data.face_result}`);
+        };
+        ws.onclose = () => {
+            console.log("WebSocket closed, reconnecting...");
+            setTimeout(() => {
+                ws = new WebSocket("ws://localhost:8000/ws");
+            }, 5000);
+        };
+        ws.onerror = (error) => console.error("WebSocket error:", error);
+    </script>
+</body>
+</html>

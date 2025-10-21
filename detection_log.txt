@@ -1,0 +1,90 @@
+Cycle 1 [2025-06-01 16:44:09]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 2 [2025-06-01 16:44:20]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 3 [2025-06-01 16:44:31]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 4 [2025-06-01 16:44:42]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 5 [2025-06-01 16:44:54]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 6 [2025-06-01 16:45:05]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 7 [2025-06-01 16:45:16]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 8 [2025-06-01 16:45:28]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 9 [2025-06-01 16:45:39]: Error - 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/process_image
+Cycle 10 [2025-06-01 16:45:51]: Error - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Cycle 1 [2025-06-01 16:52:00]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986DB70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 2 [2025-06-01 16:52:21]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986E5C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 3 [2025-06-01 16:52:41]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986D180>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 4 [2025-06-01 16:53:02]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986EF20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 5 [2025-06-01 16:53:24]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986F880>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 6 [2025-06-01 16:53:44]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E798B0220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 7 [2025-06-01 16:54:04]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986FA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 8 [2025-06-01 16:54:24]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986D960>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 9 [2025-06-01 16:54:44]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986E650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 10 [2025-06-01 16:55:04]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986DC60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 11 [2025-06-01 16:55:26]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E798B02B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 12 [2025-06-01 16:55:45]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986E1D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 13 [2025-06-01 16:56:06]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986DB70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 14 [2025-06-01 16:56:26]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986EBF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 15 [2025-06-01 16:56:49]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986F550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 16 [2025-06-01 16:57:13]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986FE80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 17 [2025-06-01 16:57:31]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023E7986FEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 1 [2025-06-01 16:58:16]: {'message': 'Error processing face', 'result': False}
+Cycle 2 [2025-06-01 16:58:36]: {'message': 'Error processing face', 'result': False}
+Cycle 1 [2025-06-01 17:06:21]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002760416E0E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 2 [2025-06-01 17:06:36]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002760416EB30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 3 [2025-06-01 17:07:03]: {'message': 'Unknown human', 'result': True}
+Cycle 4 [2025-06-01 17:07:19]: {'message': 'Unknown human', 'result': True}
+Cycle 5 [2025-06-01 17:07:37]: {'message': 'Unknown human', 'result': True}
+Cycle 1 [2025-06-01 20:05:45]: {'message': 'Unknown human', 'result': True}
+Cycle 2 [2025-06-01 20:06:03]: {'message': 'Unknown human', 'result': True}
+Cycle 3 [2025-06-01 20:06:24]: {'message': 'Unknown human', 'result': True}
+Cycle 4 [2025-06-01 20:06:42]: {'message': 'Unknown human', 'result': True}
+Cycle 5 [2025-06-01 20:07:04]: {'message': 'Unknown human', 'result': True}
+Cycle 6 [2025-06-01 20:07:25]: {'message': 'Unknown human', 'result': True}
+Cycle 7 [2025-06-01 20:08:09]: {'message': 'Unknown human', 'result': True}
+Cycle 8 [2025-06-01 20:08:31]: {'message': 'Unknown human', 'result': True}
+Cycle 9 [2025-06-01 20:08:53]: {'message': 'Unknown human', 'result': True}
+Cycle 10 [2025-06-01 20:09:13]: {'message': 'Unknown human', 'result': True}
+Cycle 11 [2025-06-01 20:09:34]: {'message': 'Unknown human', 'result': True}
+Cycle 12 [2025-06-01 20:09:51]: {'message': 'Unknown human', 'result': True}
+Cycle 13 [2025-06-01 20:10:09]: {'message': 'Unknown human', 'result': True}
+Cycle 14 [2025-06-01 20:10:30]: {'message': 'Unknown human', 'result': True}
+Cycle 15 [2025-06-01 20:10:49]: {'message': 'Unknown human', 'result': True}
+Cycle 16 [2025-06-01 20:11:08]: {'message': 'Unknown human', 'result': True}
+Cycle 17 [2025-06-01 20:11:25]: {'message': 'Unknown human', 'result': True}
+Cycle 18 [2025-06-01 20:11:47]: {'message': 'Unknown human', 'result': True}
+Cycle 19 [2025-06-01 20:12:10]: {'message': 'Unknown human', 'result': True}
+Cycle 20 [2025-06-01 20:12:28]: {'message': 'Unknown human', 'result': True}
+Cycle 21 [2025-06-01 20:12:50]: {'message': 'Unknown human', 'result': True}
+Cycle 22 [2025-06-01 20:13:13]: {'message': 'Unknown human', 'result': True}
+Cycle 23 [2025-06-01 20:13:35]: {'message': 'Unknown human', 'result': True}
+Cycle 24 [2025-06-01 20:13:54]: {'message': 'Unknown human', 'result': True}
+Cycle 25 [2025-06-01 20:14:13]: {'message': 'Unknown human', 'result': True}
+Cycle 26 [2025-06-01 20:14:34]: {'message': 'Unknown human', 'result': True}
+Cycle 27 [2025-06-01 20:14:52]: {'message': 'Unknown human', 'result': True}
+Cycle 28 [2025-06-01 20:15:10]: {'message': 'Unknown human', 'result': True}
+Cycle 29 [2025-06-01 20:15:37]: {'message': 'Unknown human', 'result': True}
+Cycle 30 [2025-06-01 20:15:57]: {'message': 'Unknown human', 'result': True}
+Cycle 31 [2025-06-01 20:16:13]: {'message': 'Unknown human', 'result': True}
+Cycle 32 [2025-06-01 20:16:25]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B5CC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 33 [2025-06-01 20:16:55]: {'message': 'Unknown human', 'result': True}
+Cycle 34 [2025-06-01 20:17:18]: {'message': 'Unknown human', 'result': True}
+Cycle 35 [2025-06-01 20:17:35]: {'message': 'Unknown human', 'result': True}
+Cycle 36 [2025-06-01 20:17:54]: {'message': 'Unknown human', 'result': True}
+Cycle 37 [2025-06-01 20:18:11]: {'message': 'Unknown human', 'result': True}
+Cycle 38 [2025-06-01 20:18:28]: {'message': 'Unknown human', 'result': True}
+Cycle 39 [2025-06-01 20:18:40]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B6E00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 40 [2025-06-01 20:19:03]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B7400>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 41 [2025-06-01 20:19:18]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B7D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 42 [2025-06-01 20:19:35]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018418618700>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 43 [2025-06-01 20:19:49]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B7D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 44 [2025-06-01 20:20:04]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B7340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 45 [2025-06-01 20:20:21]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B5CC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 46 [2025-06-01 20:20:38]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184186187C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 47 [2025-06-01 20:20:53]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018418619060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 48 [2025-06-01 20:21:09]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B6B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 49 [2025-06-01 20:21:25]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B7220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 50 [2025-06-01 20:21:42]: Error - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /process_image (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184185B79A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Cycle 51 [2025-06-01 20:21:58]: {'message': 'No human face detected', 'result': False}
+Cycle 52 [2025-06-01 20:22:14]: {'message': 'No human face detected', 'result': False}
+Cycle 53 [2025-06-01 20:22:51]: {'message': 'No human face detected', 'result': False}
+Cycle 55 [2025-06-01 20:23:36]: {'message': 'Unknown human', 'result': True}
+Cycle 56 [2025-06-01 20:24:01]: {'message': 'Unknown human', 'result': True}
+Cycle 57 [2025-06-01 20:24:47]: {'message': 'Unknown human', 'result': True}
