@@ -33,10 +33,10 @@ def save_on_movement(stream_url, output_path, screenshot_path, record_time=10, m
     print("Monitoring for movement... Press ESC to exit.")
     
     server_url = "http://localhost:5000/process_image"
-    api_key = "5gl5TTvpUaX3J9K-muC3pSiTfGHy8S_Vn3ruNk8Vnqw"
+    api_key = os.getenv('api_key')
 
-    telegram_bot_token = "7542006617:AAHjxV0IUEvDyT2maDWDgtVsVlFvsCUbiM8"
-    telegram_chat_id = "928614686"
+    telegram_bot_token = os.getenv('telegram_bot_token')
+    telegram_chat_id = os.getenv('telegram_chat_id')
     telegram_photo_url = f"https://api.telegram.org/bot{telegram_bot_token}/sendPhoto"
     telegram_video_url = f"https://api.telegram.org/bot{telegram_bot_token}/sendVideo"
 
